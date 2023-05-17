@@ -1,15 +1,20 @@
-# Uso del PLL IP-CORE #
+# Interfaz SPI genérica #
 
-- Para este ejercicio se confguró un bloque *Clocking wizard*, este permite generar un reloj interno de 10mHz a partir de un reloj externo de 100Mhz.
-
-__Diagrama de bloques del módulo__
+- Para este ejercicio se...
+__Diagrama de bloques del SPI__
 
 </br>
 
-![Diagrama de bloques de todo el sistema](/images/EJ1_DIAGRAM.png)
+![Diagrama de bloques de todo el sistema](/images/general_spi.png)
 
-__Testbench del módulo__
+__Registro de control__
 </br>
 
 
-![Diagrama de bloques de todo el sistema](/images/EJ1_TB.png)
+![Diagrama de bloques de todo el sistema](/images/reg_ctrl_spi.png)
+
+__Registro de datos__
+</br>
+
+
+![Diagrama de bloques de todo el sistema](/images/reg_data_spi.png)

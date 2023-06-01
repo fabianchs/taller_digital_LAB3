@@ -35,6 +35,8 @@ module data_register (
     logic [31:0] reg2;
     logic [31:0] control_reg;
     
+    assign reg1=IN1;
+    assign reg2=IN2;
 
     always_ff @(posedge hold_ctrl) begin
         if (WR1) begin
